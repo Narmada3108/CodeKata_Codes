@@ -36,7 +36,6 @@ public class IndexNumber3 {
 		{
 			con2=1;
 		}int y=0;
-		int same_array[]=new int [100];
 		if(con1==1&&con2==1)
 		{
 
@@ -44,18 +43,12 @@ public class IndexNumber3 {
 			{
 				if(a1[i]==i)
 				{
-					same_array[y]=a1[i];
+					System.out.print(a1[i]+" ");
 				 	y++;
 				 	
 				}
 			}
-			if(y>0){
-			for(i=0;i<y;i++)
-			{
-				System.out.print(same_array[i]+" ");
-			}}
-			else
-			{
+			if(y==0){
 				System.out.println("Index and number in the index is not same for any of the elements");
 			}
 		}
