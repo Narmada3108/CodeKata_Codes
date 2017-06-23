@@ -29,5 +29,9 @@ public class RepeatedNum1 {
 		{
 			System.out.print(a2[i]+ " ");
 		}
+		if(v==0)
+		{
+			System.out.println("No number is repeated");
+		}
 	}
 }
